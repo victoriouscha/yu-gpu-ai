@@ -1,0 +1,14 @@
+# Hugging Face model cache
+hf-cache/
+.cache/
+**/.cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Jupyter temporary files
+.ipynb_checkpoints/
