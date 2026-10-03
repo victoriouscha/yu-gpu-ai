@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YU AI Agent Web MVP</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">GPU 기반 오픈소스 LLM · AI Agent PBL</p>
+      <h1>YU AI Agent Web MVP</h1>
+      <p>Qwen3-8B가 질문을 판단하고 필요한 Custom Tool을 실행합니다.</p>
+    </section>
+
+    <section class="panel">
+      <label for="query">질문</label>
+      <textarea id="query" rows="4"
+        placeholder="예: 33명이 30시간씩 GPU를 사용하면 총 몇 GPU-hour야?"></textarea>
+      <div class="actions">
+        <button id="sendBtn">Agent 실행</button>
+        <button id="healthBtn" class="secondary">GPU 상태</button>
+      </div>
+      <p id="status" class="status">준비됨</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>최종 응답</h2>
+        <pre id="answer">아직 실행하지 않았습니다.</pre>
+      </article>
+      <article class="card">
+        <h2>실행 정보</h2>
+        <pre id="meta">Tool 사용 여부와 실행 시간이 표시됩니다.</pre>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Raw JSON</h2>
+      <pre id="raw">{}</pre>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
