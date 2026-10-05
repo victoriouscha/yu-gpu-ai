@@ -38,6 +38,9 @@ def calculator(expression: str):
 def text_length(text: str):
     return {"ok": True, "text": text, "length": len(text)}
 
+def word_count(text: str):
+    return {"ok": True, "count": len(text.split())}
+
 def current_time():
     return {
         "ok": True,
@@ -48,6 +51,7 @@ TOOL_REGISTRY = {
     "calculator": calculator,
     "text_length": text_length,
     "current_time": current_time,
+    "word_count": word_count,
 }
 
 TOOL_DESCRIPTIONS = {
@@ -58,6 +62,10 @@ TOOL_DESCRIPTIONS = {
     "text_length": {
         "description": "문자열의 글자 수를 계산합니다.",
         "arguments": {"text": "길이를 확인할 문자열"},
+    },
+    "word_count": {
+        "description": "공백을 기준으로 문자열의 단어 수를 계산합니다.",
+        "arguments": {"text": "단어 수를 확인할 문자열"},
     },
     "current_time": {
         "description": "현재 시스템 날짜와 시각을 확인합니다.",
