@@ -1,11 +1,11 @@
 ﻿model,id,category,latency_sec,tokens_per_sec,peak_vram_gb,instruction_pass,valid_output
-Qwen3-8B,1,설명,3.054,29.47,15.28,True,
-Qwen3-8B,2,요약,1.865,29.49,15.28,True,
-Qwen3-8B,3,지시준수,6.691,29.89,15.3,True,
-Qwen3-8B,4,구조화 출력,2.829,29.69,15.28,False,False
-Qwen3-8B,5,분류,0.104,28.81,15.28,True,True
-Gemma-3-4B-IT,1,설명,5.79,23.66,8.04,True,
-Gemma-3-4B-IT,2,요약,1.85,23.25,8.03,True,
-Gemma-3-4B-IT,3,지시준수,8.384,23.5,8.05,True,
-Gemma-3-4B-IT,4,구조화 출력,4.004,23.73,8.04,False,False
-Gemma-3-4B-IT,5,분류,0.132,22.65,8.03,True,True
+Qwen3-8B,1,설명,3.325,27.07,15.28,True,
+Qwen3-8B,2,요약,2.098,26.21,15.28,True,
+Qwen3-8B,3,지시준수,7.633,26.2,15.3,True,
+Qwen3-8B,4,구조화 출력,3.244,25.89,15.28,False,False
+Qwen3-8B,5,분류,0.124,24.12,15.28,True,True
+Gemma-3-4B-IT,1,설명,6.332,21.64,8.04,True,
+Gemma-3-4B-IT,2,요약,2.055,20.93,8.03,True,
+Gemma-3-4B-IT,3,지시준수,9.723,20.26,8.05,True,
+Gemma-3-4B-IT,4,구조화 출력,4.627,20.53,8.04,False,False
+Gemma-3-4B-IT,5,분류,0.155,19.37,8.03,True,True
