@@ -1,0 +1,9 @@
+*{box-sizing:border-box} body{margin:0;font-family:Arial,"Malgun Gothic",sans-serif;background:#f6f9fc;color:#23303d}
+.wrap{max-width:900px;margin:0 auto;padding:40px 20px}.hero{background:#fff4b8;padding:28px;border-radius:22px;margin-bottom:18px}
+.badge{display:inline-block;background:#dff2ff;padding:7px 11px;border-radius:999px;font-size:13px}
+h1{font-size:38px;margin:12px 0 6px;color:#1c3a5c}.hero p{margin:0;color:#65727e}
+.panel{background:white;padding:22px;border-radius:18px;margin:16px 0;box-shadow:0 8px 24px rgba(30,60,90,.07)}
+label,h2{font-weight:700;color:#1c3a5c} textarea{width:100%;margin-top:10px;padding:14px;border:1px solid #cfd8e2;border-radius:12px;font-size:16px;resize:vertical}
+.actions{display:flex;gap:10px;margin-top:12px}button{border:0;border-radius:12px;padding:12px 18px;font-weight:700;background:#478ac9;color:white;cursor:pointer}
+button.secondary{background:#e7eef5;color:#1c3a5c}.status{font-size:13px;color:#65727e}.answer{font-size:18px;line-height:1.7;white-space:pre-wrap}
+pre{background:#f6f9fc;padding:16px;border-radius:12px;overflow:auto;white-space:pre-wrap}
