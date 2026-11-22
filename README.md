@@ -57,6 +57,8 @@ yu-gpu-ai/
 └── workspace_source_backup_20261122.tar.gz
 ```
 
+> `workspace_source_backup_20261122.tar.gz`는 기존 작업 공간의 보관용 백업입니다. 학생용 실습에 반드시 필요한 실행 파일은 아닙니다. 현재 실행할 5회차 프로젝트의 최종 폴더 이름은 **`05_agent_web_mvp`**입니다.
+
 ## 4. 실행 환경
 
 - RunPod GPU Pod: 실습 전체를 위해 **NVIDIA A100 80GB** 환경을 기준으로 검증
