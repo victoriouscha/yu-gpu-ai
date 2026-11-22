@@ -1,0 +1,6 @@
+﻿status,used_tool,tool_name,arguments,tool_result,decision,final_answer,elapsed_ms,question
+success,True,calculator,{'expression': '125*8+30'},"{'ok': True, 'result': 1030}","{'action': 'tool', 'tool_name': 'calculator', 'arguments': {'expression': '125*8+30'}}",125 곱하기 8에 30을 더하면 1030이다.,1633.8,125 곱하기 8에 30을 더하면?
+success,True,text_length,{'text': 'AI Agent'},"{'ok': True, 'result': 8}","{'action': 'tool', 'tool_name': 'text_length', 'arguments': {'text': 'AI Agent'}}",'AI Agent'의 글자 수는 8입니다.,1114.0,'AI Agent'의 글자 수를 계산해줘.
+error,False,,{},,"{'action': 'error', 'error': 'JSON 파싱 실패: Unterminated string starting at: line 1 column 45 (char 44)'}",Agent 결정을 처리하지 못했습니다.,551.2,지금 한국 날짜와 시간은?
+success,True,data_summary,"{'values': [10, 20, 30]}","{'ok': True, 'result': {'count': 3, 'sum': 60, 'average': 20.0, 'min': 10, 'max': 30}}","{'action': 'tool', 'tool_name': 'data_summary', 'arguments': {'values': [10, 20, 30]}}","평균은 20.0이고, 합계는 60입니다.",1504.6,"판매액 [10,20,30]의 평균과 합계를 알려줘."
+success,False,,{},,"{'action': 'answer', 'answer': 'LLM은 대규모 언어 모델로 텍스트 생성 및 이해에 특화되어 있지만, AI Agent는 특정 작업을 수행하기 위한 목표 지향적 시스템이다.'}","LLM은 대규모 언어 모델로 텍스트 생성 및 이해에 특화되어 있지만, AI Agent는 특정 작업을 수행하기 위한 목표 지향적 시스템이다.",1791.4,LLM과 AI Agent의 차이를 한 문장으로 설명해줘.

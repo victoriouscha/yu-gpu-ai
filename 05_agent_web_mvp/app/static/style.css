@@ -1,0 +1,7 @@
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,"Malgun Gothic",sans-serif;background:#f6faff;color:#173253;margin:0}
+.wrap{max-width:1100px;margin:35px auto;padding:0 22px}header{background:#fff;border:1px solid #dce8f5;border-radius:18px;padding:30px;margin-bottom:20px}
+h1{font-size:32px;margin:8px 0}.eyebrow{font-weight:700;color:#1675b6;letter-spacing:.06em}.panel{background:#fff;border:1px solid #dce8f5;border-radius:16px;padding:23px;margin:15px 0;box-shadow:0 4px 18px #123a5510}
+label{display:block;font-weight:700;margin-bottom:10px}textarea{width:100%;border:1px solid #b9cfe1;border-radius:10px;padding:12px;font:inherit;resize:vertical}.actions{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+button{background:#217cbb;border:0;color:white;border-radius:10px;padding:12px 18px;font-weight:700;cursor:pointer}button:disabled{opacity:.6}.secondary{background:#e3f1fa;color:#1a5782}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f9fe;padding:14px;border-radius:8px;min-height:100px;font:14px/1.65 Consolas,"Malgun Gothic",monospace}
+#state{font-size:14px;color:#326a92}footer{font-size:13px;color:#68829a;margin:24px 0}@media(max-width:760px){.grid{grid-template-columns:1fr}}

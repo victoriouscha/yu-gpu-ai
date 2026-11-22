@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YU AI Agent Web MVP</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="wrap">
+<header><p class="eyebrow">RunPod A100 · Qwen3-8B · FastAPI</p><h1>AI Agent Web MVP</h1><p>질문에 따라 Custom Tool을 선택하고 실행합니다.</p></header>
+<section class="panel"><label for="question">질문 입력</label>
+<textarea id="question" rows="4" maxlength="1000" placeholder="예: 33명이 30시간씩 GPU를 사용하면 총 몇 GPU-hour야?"></textarea>
+<div class="actions"><button id="send">Agent 실행</button><button class="secondary" id="health">GPU 상태 확인</button></div>
+<p id="state" role="status" aria-live="polite">대기 중</p></section>
+<section class="grid"><article class="panel"><h2>최종 응답</h2><pre id="answer">아직 응답이 없습니다.</pre></article>
+<article class="panel"><h2>Agent 실행 정보</h2><pre id="meta">Tool 사용 여부, 처리시간</pre></article></section>
+<footer>교육용 데모 · 공개 인터넷에 인증 없이 노출하지 마세요.</footer>
+</main><script src="/static/app.js"></script></body></html>
