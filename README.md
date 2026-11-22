@@ -116,7 +116,6 @@ python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 ## 8. 결과 보관 및 협업 시 주의
 
 - Notebook과 결과 CSV는 **Network Volume**에 저장하고, 수업 종료 후 로컬 PC 또는 GitHub에 별도 백업합니다.
-- 기존 강사의 자료가 학생 스토리지에 있을 수 있으므로 **기존 파일을 삭제하거나 덮어쓰지 않습니다.**
 - Hugging Face 토큰, SSH 개인키, 비밀번호 등 인증 정보는 Notebook·코드·공개 저장소·Docker 이미지에 포함하지 않습니다.
 - 공개 HTTP 포트로 인증 없는 실습 API를 열면 외부 접근이 가능할 수 있습니다. 운영 방식에 맞는 접근 제한을 적용하세요.
 - GPU 사용을 마치면 RunPod Pod를 중지해 GPU 과금을 관리합니다. Network Volume의 저장 요금은 별도로 계속 발생할 수 있습니다.
