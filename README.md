@@ -57,24 +57,12 @@ yu-gpu-ai/
 └── workspace_source_backup_20261122.tar.gz
 ```
 
-> `workspace_source_backup_20261122.tar.gz`는 기존 작업 공간의 보관용 백업입니다. 학생용 실습에 반드시 필요한 실행 파일은 아닙니다. 현재 실행할 5회차 프로젝트의 최종 폴더 이름은 **`05_agent_web_mvp`**입니다.
-
 ## 4. 실행 환경
 
 - RunPod GPU Pod: 실습 전체를 위해 **NVIDIA A100 80GB** 환경을 기준으로 검증
 - 데이터 보관: RunPod **Network Volume**을 `/workspace`에 마운트하는 방식 권장
 - Python·CUDA·PyTorch와 Transformers 등은 Notebook 안내 또는 사전 구성된 이미지로 준비
 - Gemma 3 4B-IT: Hugging Face에서 **모델 이용 조건 동의 및 접근 권한** 필요
-
-### 사전 구축용 학생 Docker 이미지
-
-```text
-ghcr.io/victoriouscha/yu-a100-llm-student:1.0
-```
-
-이 이미지는 Python·PyTorch·JupyterLab·Transformers·FastAPI 등의 **실행 환경**을 제공하기 위한 것입니다. **Notebook, 모델 가중치, 개별 학생의 실습 결과는 이미지에 포함되지 않습니다.** Docker 이미지 설정과 빌드 과정은 별도 저장소인 [`yu-a100-llm-actions`](https://github.com/victoriouscha/yu-a100-llm-actions)에서 관리합니다.
-
-학생의 Pod 생성 시 강사가 이미지를 지정하고, 각자의 Network Volume을 `/workspace`에 연결하여 사용합니다. 이미지가 게시되었다고 해서 RunPod GPU에서 모든 실습이 자동으로 검증되는 것은 아니므로, 수업 전 별도의 실행 확인이 필요합니다.
 
 ## 5. RunPod JupyterLab에서 실습 시작
 
